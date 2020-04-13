@@ -1,7 +1,7 @@
 # Table of contents
 * [Introduction](#introduction)
 * [Problem Description](#problem-description)
-* [Solution: FeatureBroker](#solution:-featurebroker)
+* [Solution: FeatureBroker](#solution-featurebroker)
 * [FeatureBroker Library](#featurebroker-library)
 
 
@@ -37,4 +37,5 @@ Note that binding is distinct from feeding or getting values; the former happens
 2. Usage phase: The inputs are fed via input pipes, and outputs are consumed by output pipes. This distinction is made to ensure that we frontload most of the runtime checking to the set-up phase (where it is self-contained and happens at often predictable times).
 
 # FeatureBroker Library
-<span style="color:blue">The library is being reviewed and will be made available shortly.</span>
+
+The library has been publically pubished [here](https://github.com/microsoft/FeatureBroker).
